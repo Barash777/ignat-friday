@@ -1,4 +1,5 @@
 .default {
+    border: solid 2px cornflowerblue;
     border-radius: 5px;
     color: white;
     padding: 5px 10px;
@@ -19,9 +20,11 @@
 
 .default:disabled {
     background-color: gray;
+    border-color: gray;
     cursor: default;
 }
 
 .red {
     background-color: red;
+    border-color: red;
 }
