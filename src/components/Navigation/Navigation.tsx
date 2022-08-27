@@ -15,42 +15,50 @@ const Navigation = () => {
     return (
         <div>
             <ul>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.LOGIN}>Login</NavLink>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.REGISTER}>Register</NavLink>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.SET_PASSWORD}>Set password</NavLink>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.RESET_PASSWORD}>Reset password</NavLink>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.PROFILE}>Profile</NavLink>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <NavLink className={activeOrNot}
-                                 to={PAGES.TEST}>Test</NavLink>
-                    </span>
-                </li>
+                <NavLink className={activeOrNot}
+                         to={PAGES.LOGIN}>
+                    <li>
+                        <span>Login</span>
+                    </li>
+                </NavLink>
+
+                <NavLink className={activeOrNot}
+                         to={PAGES.REGISTER}>
+                    <li>
+                        <span>Register</span>
+                    </li>
+                </NavLink>
+
+
+                <NavLink className={activeOrNot}
+                         to={PAGES.SET_PASSWORD}>
+                    <li>
+                        <span>Set password</span>
+                    </li>
+                </NavLink>
+
+
+                <NavLink className={activeOrNot}
+                         to={PAGES.RESET_PASSWORD}>
+                    <li>
+                        <span>Reset password</span>
+                    </li>
+                </NavLink>
+
+
+                <NavLink className={activeOrNot}
+                         to={PAGES.PROFILE}>
+                    <li>
+                        <span>Profile</span>
+                    </li>
+                </NavLink>
+
+                <NavLink className={activeOrNot}
+                         to={PAGES.TEST}>
+                    <li>
+                        <span>Test</span>
+                    </li>
+                </NavLink>
             </ul>
 
             {/*<NavLink to={PAGES.LOGIN}>Login</NavLink>
